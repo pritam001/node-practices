@@ -86,3 +86,10 @@ eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'conn
 console.log(eventListeners + " Listner(s) listening to connection event");
 
 console.log("Program Ended.");
+// ------------------------------------------------
+
+buf = new Buffer(256);
+len = buf.write("Simply Easy Learning");
+
+console.log("Octets written : "+  len);
+
