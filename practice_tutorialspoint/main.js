@@ -1,4 +1,4 @@
-/* ---------------------------------------------------
+// ---------------------------------------------------
 console.log("Hello, World2!")
 
 var http = require("http");
@@ -6,12 +6,12 @@ var http = require("http");
 http.createServer(function(request, response){
 	// Send the http header, HTTP Status : 200 OK
 	response.writeHead(200,{'Content-Type':'text/plain'});
-	response.end('Hello World! Http Head \n');
+	response.end('SCREW YOU !!!! \nMAGIC Samyak');
 }).listen(8081);
 
 console.log("Server running at http://127.0.0.1:8081");
 
-// ---------------------------------------------------
+/* ---------------------------------------------------
 var fs = require("fs");
 
 var data = fs.readFileSync('input.txt');
@@ -27,7 +27,7 @@ fs2.readFile('input.txt', function(err, data){
 
 console.log("Program async last command executed!");
 */
-// ---------------------------------------------------
+/* ---------------------------------------------------
 var event1 = require("events");
 
 var eventEmitter1 = new event1.EventEmitter();
@@ -92,4 +92,4 @@ buf = new Buffer(256);
 len = buf.write("Simply Easy Learning");
 
 console.log("Octets written : "+  len);
-
+*/
