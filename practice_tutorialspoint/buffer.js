@@ -37,3 +37,9 @@ if(result < 0) {
 }else {
    console.log(buffer1 +" comes after " + buffer2);
 }
+
+var buffer1 = new Buffer('ABC');
+//copy a buffer
+var buffer2 = new Buffer(3);
+buffer1.copy(buffer2);
+console.log("buffer2 content: " + buffer2.toString());
