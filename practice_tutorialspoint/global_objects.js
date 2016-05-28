@@ -8,4 +8,12 @@ function printHello(){
 // Now call above function after 2 seconds
 var t = setTimeout(printHello, 2000);
 
-clearTimeout(t);
+//clearTimeout(t);
+
+function printPass(){
+   console.log( "2 seconds passed!");
+}
+// Now call above function after 2 seconds
+setInterval(printPass, 2000);
+
+//clearInterval(t);
